@@ -1,0 +1,49 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 2,
+    "name": "mewebdev/mewebdev-squawk-forms",
+    "category": "common",    
+    "description": "Powerful & stylish contact form. Excellent deliverability with Amazon SES & security with Google reCAPTCHA V3.",
+    "title": "Squawk Forms",
+    "editorScript": "file:./build/index.js",
+    "editorStyle": "file:./build/index.css",
+    "style": "file:./build/style-index.css",
+    "attributes": {
+      "formContainerBackground": {"type": "string", "default": "#FFFFFF"},
+      "formContainerBorderRadius": {"type": "number", "default": 7},
+      "formContainerPadding": {"type": "number", "default": 1.5},
+      "formContainerBorder": {"type": "object", "default": {"color": "#FFFFFF", "style": "solid", "width": "1px"}},
+      "formContainerSectionSpacing": {"type": "number", "default": 1},
+      "formContainerBoxShadow": {"type": "number", "default": 0.5},
+      "formContainerBoxShadowColor": {"type": "string", "default": "#D1D4DD"},
+
+      "heading": {"type": "string", "default": ""},
+      "headingFontSize": {"type": "string", "default": "1.7rem"},
+      "headingFontColor": {"type": "string", "default": "#4B566E"},
+      "headingSpacing": {"type": "number", "default": 0.5},
+
+      "labelsFontSize": {"type": "string", "default": "16px"},
+      "labelsFontColor": {"type": "string", "default": "#4B566E"},
+      "labelSpacing": {"type": "number", "default": 0.5},
+
+      "textBoxFontSize": {"type": "string", "default": "1.2rem"},
+      "textBoxWidth": {"type": "number", "default": 99},
+      "textBoxTextColor": {"type": "string", "default": "#4B566E"},
+      "textBoxBackgroundColor": {"type": "string", "default": "#E6E9F2"},
+      "textBoxBorder": {"type": "object", "default": {"color": "#D1D4DD", "style": "solid", "width": "1px"}},
+      "textBoxBorderRadius": {"type": "number", "default": 3},
+      "textBoxPadding": {"type": "number", "default": 0.4},
+
+      "buttonSendText": {"type": "string", "default": "Send"},
+      "buttonSendFontSize": {"type": "string", "default": "1rem"},
+      "buttonSendPaddingX": {"type": "number", "default": 5},
+      "buttonSendPaddingY": {"type": "number", "default": 0.5},
+      "buttonSendBGColor": {"type": "string", "default": "#1E273C"},
+      "buttonSendTextColor": {"type": "string", "default": "#FFFFFF"},
+      "buttonSendBorder": {"type": "object", "default": {"color": "#FFFFFF", "style": "solid", "width": "0px"}},
+      "buttonSendHoverBgColor": {"type": "string", "default": "#4B566E"},
+      "buttonSendHoverTextColor": {"type": "string", "default": "#FFFFFF"},
+      "buttonSendBorderRadius": {"type": "number", "default": 5},
+      "buttonSendWidth": {"type": "string", "default": ""}
+    }
+  }
